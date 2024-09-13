@@ -1,4 +1,4 @@
-Here is the single output for the assignment in Markdown format:
+
 
 ```markdown
 # MAX 526 / MSC 651
