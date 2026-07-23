@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_reg_media",
+  "source_file": "Assign1 (1) (2).sas",
+  "source_blob_sha": "599dcbcd3bfe61a433d758b0e2a330e302371a73",
+  "source_commit": "39cc720c6709081cf6568ac393c80915b5e67a8f",
+  "notes": "Q3/Q4 regressions: simple model TotalSales=PricePerUnit then the media model TotalSales=PricePerUnit Mag News Outdoor Broad Print. Author's stray 'proc print data=regout' (regout never created via outest=) dropped. Same mock vodka_data."
+}

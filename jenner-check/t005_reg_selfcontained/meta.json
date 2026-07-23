@@ -1,0 +1,7 @@
+{
+  "bundle": "t005_reg_selfcontained",
+  "source_file": "Assign1 (1) (2).sas",
+  "source_blob_sha": "599dcbcd3bfe61a433d758b0e2a330e302371a73",
+  "source_commit": "39cc720c6709081cf6568ac393c80915b5e67a8f",
+  "notes": "Self-contained copy of the Q3/Q4 regressions (TotalSales=PricePerUnit; then + Mag News Outdoor Broad Print) with the mock vodka_data DATA step inlined into script.sas, so a script-only POST to /v1/quick reproduces it. This is the copy-paste curl target in the PR body."
+}
