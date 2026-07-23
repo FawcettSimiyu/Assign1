@@ -1,0 +1,54 @@
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                             Dependent Variable: TotalSales                                             
+
+Source                 DF  Sum of Squares   Mean Square   F Value    Pr > F
+---------------  --------  --------------  ------------  --------  --------
+Model                   7   4094595.21741  584942.17392    107.75    <.0001
+Error                  12     65143.70809    5428.64234                    
+Corrected Total        19   4159738.92550                                  
+
+Root MSE          73.67932    R-Square            0.9843
+Dependent Mean    1310.03500    Adj R-Sq            0.9752
+Coeff Var          5.62423
+
+                         Parameter Estimates                         
+
+Variable            DF   Estimate  Standard Error   t Value  Pr > |t|
+------------  --------  ---------  --------------  --------  --------
+Intercept            1  733.44344       268.98749      2.73    0.0184
+PricePerUnit         1  -68.83941        27.61168     -2.49    0.0283
+Mag                  1  -10.59275         2.41048     -4.39    0.0009
+News                 1    1.47708         6.79056      0.22    0.8315
+Outdoor              1  -59.94941        14.72386     -4.07    0.0015
+Broad                1   27.78894         4.37980      6.34    <.0001
+Tier1_Dummy          1  -65.03532       203.31476     -0.32    0.7546
+Tier2_Dummy          1   89.14164       118.37079      0.75    0.4659
+
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                             Dependent Variable: TotalSales                                             
+
+Source                 DF  Sum of Squares   Mean Square   F Value    Pr > F
+---------------  --------  --------------  ------------  --------  --------
+Model                   7   4094595.21741  584942.17392    107.75    <.0001
+Error                  12     65143.70809    5428.64234                    
+Corrected Total        19   4159738.92550                                  
+
+Root MSE          73.67932    R-Square            0.9843
+Dependent Mean    1310.03500    Adj R-Sq            0.9752
+Coeff Var          5.62423
+
+                                        Parameter Estimates                                         
+
+Variable            DF   Estimate  Standard Error   t Value  Pr > |t|  Tolerance  Variance Inflation
+------------  --------  ---------  --------------  --------  --------  ---------  ------------------
+Intercept            1  733.44344       268.98749      2.73    0.0184          .                   .
+PricePerUnit         1  -68.83941        27.61168     -2.49    0.0283    0.03185            31.39920
+Mag                  1  -10.59275         2.41048     -4.39    0.0009    0.00426           234.83040
+News                 1    1.47708         6.79056      0.22    0.8315    0.00192           520.78959
+Outdoor              1  -59.94941        14.72386     -4.07    0.0015    0.00170           586.74706
+Broad                1   27.78894         4.37980      6.34    <.0001    0.00099          1008.11891
+Tier1_Dummy          1  -65.03532       203.31476     -0.32    0.7546    0.03127            31.98128
+Tier2_Dummy          1   89.14164       118.37079      0.75    0.4659    0.08515            11.74382
+

@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_dummy_reg",
+  "source_file": "Assign1 (1) (2).sas",
+  "source_blob_sha": "599dcbcd3bfe61a433d758b0e2a330e302371a73",
+  "source_commit": "39cc720c6709081cf6568ac393c80915b5e67a8f",
+  "notes": "Q5/Q6 dummy variables: DATA step derives Tier1_Dummy/Tier2_Dummy from Tier, then two regressions (plain and with / vif). Author's stray 'proc print data=regout' dropped. Same mock vodka_data."
+}

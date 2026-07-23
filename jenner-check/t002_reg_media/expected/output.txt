@@ -1,0 +1,47 @@
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                             Dependent Variable: TotalSales                                             
+
+Source                 DF  Sum of Squares    Mean Square   F Value    Pr > F
+---------------  --------  --------------  -------------  --------  --------
+Model                   1   3312060.16130  3312060.16130     70.33    <.0001
+Error                  18    847678.76420    47093.26468                    
+Corrected Total        19   4159738.92550                                   
+
+Root MSE         217.00983    R-Square            0.7962
+Dependent Mean    1310.03500    Adj R-Sq            0.7849
+Coeff Var         16.56519
+
+                         Parameter Estimates                          
+
+Variable            DF    Estimate  Standard Error   t Value  Pr > |t|
+------------  --------  ----------  --------------  --------  --------
+Intercept            1  -359.86787       204.95035     -1.76    0.0961
+PricePerUnit         1   121.71304        14.51334      8.39    <.0001
+
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                             Dependent Variable: TotalSales                                             
+
+Source                 DF  Sum of Squares   Mean Square   F Value    Pr > F
+---------------  --------  --------------  ------------  --------  --------
+Model                   6   4053877.30685  675646.21781     82.97    <.0001
+Error                  13    105861.61865    8143.20143                    
+Corrected Total        19   4159738.92550                                  
+
+Root MSE          90.23969    R-Square            0.9746
+Dependent Mean    1310.03500    Adj R-Sq            0.9628
+Coeff Var          6.88834
+
+                         Parameter Estimates                         
+
+Variable            DF   Estimate  Standard Error   t Value  Pr > |t|
+------------  --------  ---------  --------------  --------  --------
+Intercept            1  670.78628       260.86114      2.57    0.0232
+PricePerUnit         1  -61.26919        30.18399     -2.03    0.0634
+Mag                  1  -14.06304         2.79888     -5.02    0.0002
+News                 1   -1.35739        11.52414     -0.12    0.9080
+Outdoor              1  -56.37831        18.43711     -3.06    0.0092
+Broad                1   28.12049         5.41728      5.19    0.0002
+Print                1    7.28782        14.05322      0.52    0.6128
+
